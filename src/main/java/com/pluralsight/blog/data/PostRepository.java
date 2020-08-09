@@ -9,7 +9,6 @@ import java.util.List;
 @Component
 public class PostRepository {
 
-    @GetMapping("/getPosts")
     public List<Post> getAllPosts() {
         return null;
     }
