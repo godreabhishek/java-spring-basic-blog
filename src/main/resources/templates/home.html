@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-    <h2 th:text="${title}"></h2>
+<h2 th:text="${title}"></h2>
+<div class="myDiv">
+    <table>
+          <tr th:each="prod : ${posts}">
+            <td th:text="${prod.id}">Onions</td>
+            <td th:text="${prod.title}">2.41</td>
+            <td th:text="${prod.lead}? #{true} : #{false}">yes</td>
+        </tr>
+    </table>
+</div>
+
+
 </body>
 </html>

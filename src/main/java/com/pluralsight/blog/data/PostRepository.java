@@ -5,17 +5,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
 @Component
 public class PostRepository {
-    @Autowired
-    Post post;
-
-    public List<Post> getAllPosts() {
-        return Arrays.asList(new Post[]{});
+      List<Post> ALL_POSTS = new ArrayList<>();
+       public List<Post> getAllPosts() {
+        return ALL_POSTS;
 
     }
 
