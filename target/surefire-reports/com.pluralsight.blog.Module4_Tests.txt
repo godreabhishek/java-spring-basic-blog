@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.blog.Module4_Tests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.pluralsight.blog.Module4_Tests
+task_1(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 1: `<a>` tags with class "post-url" do not exist.
+	at com.pluralsight.blog.Module4_Tests.task_1(Module4_Tests.java:141)
+
+task_2(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 2: The method `public String postDetails(@PathVariable Long id, ModelMap map)` does not exist in BlogController.
+	at com.pluralsight.blog.Module4_Tests.task_2(Module4_Tests.java:166)
+
+task_3(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 3: The method `public String postDetails(@PathVariable Long id, ModelMap map)` does not exist in BlogController.
+	at com.pluralsight.blog.Module4_Tests.task_3(Module4_Tests.java:186)
+
+task_4(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 4: The method `getAllPosts()` does not exist in the PostRepository class.
+	at com.pluralsight.blog.Module4_Tests.task_4(Module4_Tests.java:213)
+
+task_5(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 5: Did not call PostRepository's `findById()` method in BlogController.
+	at com.pluralsight.blog.Module4_Tests.do_task_5(Module4_Tests.java:261)
+	at com.pluralsight.blog.Module4_Tests.task_5(Module4_Tests.java:232)
+
+task_6(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 6: Did not call ModelMap's `put()` method with the Post.
+	at com.pluralsight.blog.Module4_Tests.do_task_6(Module4_Tests.java:285)
+	at com.pluralsight.blog.Module4_Tests.task_6(Module4_Tests.java:237)
+
+task_7(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: The `<h3>` tags for author and date do not exist in the post-details.html template.
+	at com.pluralsight.blog.Module4_Tests.task_7(Module4_Tests.java:311)
+
+task_8(com.pluralsight.blog.Module4_Tests)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: The `<div class="col-md-8 post-body">` tag for the body does not exist in the post-details.html template.
+	at com.pluralsight.blog.Module4_Tests.task_8(Module4_Tests.java:354)
+

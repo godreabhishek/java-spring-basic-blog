@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.blog.Module1_Tests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 10.322 s <<< FAILURE! - in com.pluralsight.blog.Module1_Tests
+task_1(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Task 1: Method `listPosts()` does not exist in BlogController.
+	at com.pluralsight.blog.Module1_Tests.task_1(Module1_Tests.java:83)
+
+task_2(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Task 1: Method `listPosts()` does not exist in BlogController.
+	at com.pluralsight.blog.Module1_Tests.task_2(Module1_Tests.java:89)
+
+task_3(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Task 1: Method `listPosts()` does not exist in BlogController.
+	at com.pluralsight.blog.Module1_Tests.task_3(Module1_Tests.java:112)
+
+task_4(com.pluralsight.blog.Module1_Tests)  Time elapsed: 0.27 s  <<< FAILURE!
+java.lang.AssertionError: Task 4: An `<h2>` tag does not exist in the `home.html` template.
+	at com.pluralsight.blog.Module1_Tests.task_4(Module1_Tests.java:171)
+

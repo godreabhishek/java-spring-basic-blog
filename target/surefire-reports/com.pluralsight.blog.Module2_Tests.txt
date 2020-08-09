@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.blog.Module2_Tests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 1.81 s <<< FAILURE! - in com.pluralsight.blog.Module2_Tests
+task_1(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Task 1: A field called `ALL_POSTS` of type List does not exist in PostRepository
+	at com.pluralsight.blog.Module2_Tests.task_1(Module2_Tests.java:147)
+
+task_2(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Task 2: The method `getAllPosts()` returns `null`.
+	at com.pluralsight.blog.Module2_Tests.task_2(Module2_Tests.java:164)
+
+task_3(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Task 3: A field called `postRepository` of type `PostRepository` does not exist in BlogController.
+	at com.pluralsight.blog.Module2_Tests.task_3(Module2_Tests.java:184)
+
+task_4(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Task 4: A `BlogController` constructor with a `PostRepository` parameter does not exist.
+	at com.pluralsight.blog.Module2_Tests.task_4(Module2_Tests.java:197)
+
+task_5(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.243 s  <<< FAILURE!
+java.lang.AssertionError: Task 5: Did not call PostRepository's `getAllPosts()` in BlogController.
+	at com.pluralsight.blog.Module2_Tests.task_5(Module2_Tests.java:223)
+
+task_6(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Task 6: Did not call ModelMap's `put()` method with the key `"posts"` and the `List<Post>`.
+	at com.pluralsight.blog.Module2_Tests.task_6(Module2_Tests.java:250)
+
+task_7(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Task 7: A `<div>` tag with `th:each` does not exist in the home.html template.
+	at com.pluralsight.blog.Module2_Tests.task_7(Module2_Tests.java:276)
+
+task_8(com.pluralsight.blog.Module2_Tests)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Task 8: An `<h2>` tag does not exist in the home.html template.
+	at com.pluralsight.blog.Module2_Tests.task_8(Module2_Tests.java:301)
+

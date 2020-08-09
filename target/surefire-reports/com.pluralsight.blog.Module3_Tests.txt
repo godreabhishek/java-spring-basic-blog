@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.pluralsight.blog.Module3_Tests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.pluralsight.blog.Module3_Tests
+task_1(com.pluralsight.blog.Module3_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: 
+Task 1: The `<link>` tag does not match - 
+<link rel="stylesheet" type="text/css" href="/css/style.css"/> - for our CSS file.
+	at com.pluralsight.blog.Module3_Tests.task_1(Module3_Tests.java:135)
+
+task_2(com.pluralsight.blog.Module3_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 2: A `<div class="card-body">` tag does not exist in the home.html template.
+	at com.pluralsight.blog.Module3_Tests.task_2(Module3_Tests.java:176)
+
+task_3(com.pluralsight.blog.Module3_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 3: A `<div>` tag with class `"card-subtext"` does not exist in the home.html template.
+	at com.pluralsight.blog.Module3_Tests.task_3(Module3_Tests.java:191)
+
+task_4(com.pluralsight.blog.Module3_Tests)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Task 4: An `<a class="navbar-brand">` tag is not substituted into the home.html template.
+	at com.pluralsight.blog.Module3_Tests.task_4(Module3_Tests.java:214)
+

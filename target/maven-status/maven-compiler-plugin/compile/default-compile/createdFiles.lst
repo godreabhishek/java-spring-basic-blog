@@ -1,0 +1,5 @@
+com\pluralsight\blog\BlogController.class
+com\pluralsight\blog\model\Post.class
+com\pluralsight\blog\BlogApplication.class
+com\pluralsight\blog\data\PostRepository.class
+com\pluralsight\blog\TestFilter\TransactionFilter.class
